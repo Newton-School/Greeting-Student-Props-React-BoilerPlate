@@ -1,9 +1,10 @@
-import React, { Component, useState } from "react";
+import React from "react";
 import '../styles/App.css';
-import Child from './Child'
+import Welcome from './Welcome';
+
 const App = () => {
   return (
-    <Child name="Krunal" />
+    <Welcome name="Krunal" />
   )
 }
 
