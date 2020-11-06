@@ -1,14 +1,15 @@
-# Greeting New College Students
+# Greeting new students at Newton School.
 ## We are suppose to create a welcome page for new students when they login on our site.
-The code is redundant so we choose to create a component that takes name as input and output a welcome message.
+We want to isolate main component from greeting text so we choose to create a welcome component that takes name as input and output a welcome message.
 
 
 ### Details
-- Create a Child component using Child.js
+- Create a Welcome component(greeting  message) in Welcome.js 
 - Use React functional component to do so.
-- Output the welcome message "Hey <name>!"
-- a prop named "name" will be passed to Child component.
+- Output the welcome message "Hey <name>!" where name is name of the student using h1 tag.
+- Also render the "Welcome to Newton School." using h2 tag.
+- A prop named "name" will be passed to Welcome component use it in writing greeting text.
 
 ### Acceptance criteria
-- Welcome message should be as given in the 3rd point in Details section.
+- Welcome message should be as given in the Details section.
 - Use of functional component.
