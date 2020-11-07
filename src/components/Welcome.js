@@ -1,1 +1,1 @@
-//write your code here
+// write code for Welcome component here
